@@ -1,0 +1,165 @@
+.site-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    padding: 0 10px 0 10px;
+    padding-bottom: 3%;
+    border-bottom: 2px solid rgb(13, 46, 86);
+} 
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.site-menu {
+    display: flex;
+    place-content: left;
+    flex-direction: column;
+    border: 2px solid rgb(13, 46, 86);
+    border-radius: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px 6px 6px 6px;
+    border: 2px solid rgb(13, 46, 86);
+    border-radius: 10px;
+    width: 150px;
+}
+
+.social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart {
+    display: block;
+    text-align: center;
+    font-family: "Baskerville SC", serif;
+    font-size: xx-large;
+    padding-bottom: 50px;
+}
+
+.cart-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(13, 46, 86);
+    border-radius: 10px;
+    margin-top: 590px;
+    width: 500px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.btn-order {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    border: 3px solid rgb(13, 46, 86) ;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+
+.nav-search {
+    display: flex;
+    place-items: center;
+    padding:  0 220px;
+    margin: auto;
+}
+
+#search {
+    text-align: center;
+    font-size: large;
+    font-size: arial;
+    margin: auto;
+    border: 2px solid rgb(13, 46, 86);
+    border-radius: 15px;
+    width: 600px;
+    height: 25px;
+}
+
+.site-logo {
+    width: 120px;
+    height: auto;
+    padding-right: 4px;
+}
+
+.site-name {
+    font-family: "Baskerville SC", serif;
+    font-weight: 900;
+    color: rgb(13, 46, 86);
+    text-align: left;
+    margin-right: auto;
+}
+
+.home-container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-family: "Baskerville SC", serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(13, 46, 86);
+    border-radius: 15px;
+}
+
+.home-image {
+    display: block;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+.about-container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-family: "Baskerville SC", serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(13, 46, 86);
+    border-radius: 15px;
+}
+
+.about-image {
+    display: block;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: right;
+    gap: 5px;
+    font-family: "Baskerville SC", serif;
+    justify-content: right;
+}
